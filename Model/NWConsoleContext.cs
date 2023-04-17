@@ -7,13 +7,13 @@ using Microsoft.Extensions.Configuration.Json;
 
 namespace Northwind_Console.Model
 {
-    public partial class NWConsole_23_ATZContext : DbContext
+    public partial class NWConsoleContext : DbContext
     {
-        public NWConsole_23_ATZContext()
+        public NWConsoleContext()
         {
         }
 
-        public NWConsole_23_ATZContext(DbContextOptions<NWConsole_23_ATZContext> options)
+        public NWConsoleContext(DbContextOptions<NWConsoleContext> options)
             : base(options)
         {
         }
